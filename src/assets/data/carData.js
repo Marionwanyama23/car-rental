@@ -62,21 +62,6 @@ const carData = [
 
   
 
-  {
-    id: 7,
-    brand: "Audi",
-    rating: 82,
-    carName: "Audi Fiesta",
-    imgUrl: img07,
-    model: "Model 3",
-    price: 50000,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
-    description:
-    "If you want both class and speed this is the car for you",
-  },
 
   
 ];
