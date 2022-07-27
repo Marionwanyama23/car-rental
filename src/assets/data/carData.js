@@ -60,21 +60,7 @@ const carData = [
 
   
 
-  {
-    id: 6,
-    brand: "Mercedes",
-    rating: 119,
-    carName: "Mercedes Benz XC90",
-    imgUrl: img06,
-    model: "Model-2022",
-    price: 85000,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
-    description:
-    "The best car for you",
-  },
+  
 
   {
     id: 7,
