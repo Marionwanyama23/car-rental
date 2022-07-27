@@ -7,6 +7,20 @@ function App() {
 
 export default App;
 
-fetch('https://cars17.p.rapidapi.com/generations/8FBB0EEA-3702-407F-8A28-CA99D9E076EE')
-	.then(response => response.json())
-	.then(response => console.log(response))
+if ('geolocation' in navigator){
+    console.log ('geolocation available');
+    navigator.geolocation.getCurrentPosition(position => {
+        console.log(position);
+    });
+}else {
+    console.log ('geolocation not available');
+}
+
+const sucessfulLookup = (position) =>{
+    const {lattitude ,longitude}= position.coords;
+    const self= this;
+    fetch ('https://api.opencagedata.com/geocode/v1/json?q=${lattitude}+{longitude}&key=0e4d7d46374b4894a7d31af02107372d')
+    .then (response => response.json())
+    .then (console.log);
+};
+
