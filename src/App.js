@@ -1,4 +1,5 @@
 import Layout from "./components/Layout/Layout";
+import axios from "axios";
 
 
 function App() {
@@ -8,7 +9,6 @@ function App() {
 export default App;
 
 
-import axios from "axios";
 
 const options = {
   method: 'GET',
