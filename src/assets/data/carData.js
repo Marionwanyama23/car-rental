@@ -55,15 +55,7 @@ const carData = [
     description:
     "BMW is known for making ultramodern luxury cars with the latest features and technologies",
   },
-
-  
-
-  
-
-  
-
-
-  
+    
 ];
 
 export default carData;
