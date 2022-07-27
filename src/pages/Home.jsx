@@ -37,9 +37,9 @@ const Home = () => {
           </Container>
         </div>
       </section>
-      {/* =========== about section ================ */}
-      <AboutSection />
       
+      <AboutSection />
+
       <section>
         <Container>
           <Row>
