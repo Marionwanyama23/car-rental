@@ -58,21 +58,7 @@ const carData = [
 
   
 
-  {
-    id: 5,
-    brand: "Ferrari",
-    rating: 94,
-    carName: "Ferrari Camry",
-    imgUrl: img05,
-    model: "Model-2022",
-    price: 45000,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
-    description:
-    "The best high end car for you",
-  },
+  
 
   {
     id: 6,
