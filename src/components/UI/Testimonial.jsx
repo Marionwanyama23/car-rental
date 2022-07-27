@@ -85,20 +85,7 @@ const Testimonial = () => {
         </div>
       </div>
 
-      <div className="testimonial py-4 px-3">
-        <p className="section__description">
-        I loved the car!
-        </p>
-
-        <div className="mt-3 d-flex align-items-center gap-4">
-          <img src={ava04} alt="" className="w-25 h-25 rounded-2" />
-
-          <div>
-            <h6 className="mb-0 mt-3">Melody Simwa</h6>
-            <p className="section__description">Customer</p>
-          </div>
-        </div>
-      </div>
+      
     </Slider>
   );
 };
