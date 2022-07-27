@@ -11,8 +11,8 @@ const quickLinks = [
   },
 
   {
-    path: "#",
-    display: "Privacy Policy",
+    path: "/home",
+    display: "Home",
   },
 
   {
@@ -37,21 +37,7 @@ const Footer = () => {
     <footer className="footer">
       <Container>
         <Row>
-          <Col lg="4" md="4" sm="12">
-            <div className="logo footer__logo">
-              <h1>
-                <Link to="/home" className=" d-flex align-items-center gap-2">
-                  <i class="ri-car-line"></i>
-                  <span>
-                    Car<br /> Rental
-                  </span>
-                </Link>
-              </h1>
-            </div>
-            <p className="footer__logo-content">
-              Find the best car for hire here
-            </p>
-          </Col>
+          
 
           <Col lg="2" md="4" sm="6">
             <div className="mb-4">
