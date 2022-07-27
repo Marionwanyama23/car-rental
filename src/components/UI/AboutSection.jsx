@@ -33,15 +33,6 @@ const AboutSection = ({ aboutClass }) => {
                 </p>
               </div>
 
-              <div className="about__section-item d-flex align-items-center">
-                <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Be your own driver
-                </p>
-
-                <p className="section__description d-flex align-items-center gap-2">
-                  <i class="ri-checkbox-circle-line"></i> Be your own driver
-                </p>
-              </div>
             </div>
           </Col>
 
