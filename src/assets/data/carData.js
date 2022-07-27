@@ -56,21 +56,7 @@ const carData = [
     "BMW is known for making ultramodern luxury cars with the latest features and technologies",
   },
 
-  {
-    id: 4,
-    brand: "Nissan",
-    rating: 102,
-    carName: "Nissan Mercielago",
-    imgUrl: img04,
-    model: "Model-2022",
-    price: 40000,
-    speed: "20kmpl",
-    gps: "GPS Navigation",
-    seatType: "Heated seats",
-    automatic: "Automatic",
-    description:
-    "The best family car for you",
-  },
+  
 
   {
     id: 5,
