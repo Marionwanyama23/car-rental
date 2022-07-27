@@ -39,7 +39,7 @@ const Home = () => {
       </section>
       {/* =========== about section ================ */}
       <AboutSection />
-      {/* ========== services section ============ */}
+      
       <section>
         <Container>
           <Row>
@@ -52,7 +52,7 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-      {/* =========== car offer section ============= */}
+
       <section>
         <Container>
           <Row>
@@ -67,10 +67,8 @@ const Home = () => {
           </Row>
         </Container>
       </section>
-      {/* =========== become a driver section ============ */}
-      <BecomeDriverSection />
+            <BecomeDriverSection />
 
-      {/* =========== testimonial section =========== */}
       <section>
         <Container>
           <Row>
@@ -84,7 +82,6 @@ const Home = () => {
         </Container>
       </section>
 
-      {/* =============== blog section =========== */}
       <section>
         <Container>
           <Row>
