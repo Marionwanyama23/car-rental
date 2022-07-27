@@ -20,26 +20,6 @@ const serviceData = [
     desc: "We do not limit the distance you want to drive ",
   },
 
-  {
-    id: 4,
-    title: "Fast & Easy Booking",
-    icon: "ri-timer-flash-line",
-    desc: "There is fast and easy booking",
-  },
-
-  {
-    id: 5,
-    title: "Many Pickup Locations",
-    icon: "ri-map-pin-line",
-    desc: "We have many locations you can pick the car you ordered",
-  },
-
-  {
-    id: 6,
-    title: "Airport Transfer",
-    icon: "ri-flight-takeoff-line",
-    desc: "We can transfer the car through flight",
-  },
 ];
 
 export default serviceData;
