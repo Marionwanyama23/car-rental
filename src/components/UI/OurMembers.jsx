@@ -8,15 +8,7 @@ import ava03 from "../../assets/all-images/ava-3.jpg";
 import ava04 from "../../assets/all-images/ava-4.jpg";
 
 const OUR__MEMBERS = [
-  {
-    name: "Frank Wanyama",
-    experience: "5 years of experience",
-    fbUrl: "#",
-    instUrl: "#",
-    twitUrl: "#",
-    linkedinUrl: "#",
-    imgUrl: ava01,
-  },
+
 
   {
     name: "Joel Sagasi",
